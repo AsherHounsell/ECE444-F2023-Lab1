@@ -18,6 +18,18 @@ This is a clone of https://github.com/miguelgrinberg/flasky
 ### Screenshot of hello world html with my name on the page:
 ![Activity 2 4 hello world with my name](https://github.com/AsherHounsell/ECE444-F2023-Lab1/assets/61854862/9cdda63a-681c-4959-89ea-310eed050fb6)
 
+## Activity 3
+
+### Commits of final code for Activity 3
+![Activity 3 - Commit](https://github.com/AsherHounsell/ECE444-F2023-Lab1/assets/61854862/f38d2fd8-afa4-44ec-9741-f2eaf81efb2d)
+![Activity 3 - Commit github](https://github.com/AsherHounsell/ECE444-F2023-Lab1/assets/61854862/39966e2d-c97e-4f7f-9d05-88e6436b72f4)
+
+### Screenshot of completed webpage with all desired elements:
+![Activity 3 - Finished webpage proof](https://github.com/AsherHounsell/ECE444-F2023-Lab1/assets/61854862/ad5ad03a-e02c-44b4-a2b6-73babcce1529)
+
+
+
+
 
 
 
