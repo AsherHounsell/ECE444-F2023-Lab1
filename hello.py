@@ -7,13 +7,14 @@ from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, ValidationError, Email
 from flask import Flask, render_template, session, redirect, url_for, flash
 
-def utor_email(form, field):
-    if 'utoronto' not in field.data:
-        raise ValidationError('Must be a UofT email address')
+#actually want to accept non-UofT just prefer it
+#def utor_email(form, field):
+#    if 'utoronto' not in field.data:
+#        raise ValidationError('Must be a UofT email address')
 
 class InformationForm(FlaskForm):
  name = StringField('What is your name?', validators=[DataRequired()])
- email = StringField('What is your email?', validators=[DataRequired(),Email(),utor_email])
+ email = StringField('What is your UofT Email address?', validators=[DataRequired(),Email()])
  submit = SubmitField('Submit')
 
  
@@ -35,7 +36,10 @@ def index():
     if old_email is not None and old_email != form.email.data:
         flash('Looks like you have changed your email!')
     session['name'] = form.name.data
-    session['email'] = form.email.data
+    if 'utoronto' not in form.email.data:
+        session['email'] = "Not UofT email"
+    else:
+      session['email']=form.email.data
     return redirect(url_for('index'))
  return render_template('index.html',
  form = form, name = session.get('name'),email=session.get('email')) 
