@@ -13,6 +13,7 @@
 
 
 ## Activity 3
+![Activity 3 - Running Locally](https://github.com/AsherHounsell/ECE444-F2023-Lab1/assets/61854862/690b34dc-34af-413e-bd65-f4f8f70db52b)
 
 
 ## Activity 4
