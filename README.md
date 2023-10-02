@@ -18,3 +18,9 @@
 
 ## Activity 4
 
+### Commands & Log Message
+![Activity 4 - Commands](https://github.com/AsherHounsell/ECE444-F2023-Lab1/assets/61854862/46a574fb-ab25-487d-a32b-afaf19a875a7)
+
+### Running Application
+![Activity 4 - Running](https://github.com/AsherHounsell/ECE444-F2023-Lab1/assets/61854862/123c802a-1803-4687-8711-41656cb09405)
+
