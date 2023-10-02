@@ -9,6 +9,7 @@
 
 
 ## Activity 2
+![Activity 2 - docker version](https://github.com/AsherHounsell/ECE444-F2023-Lab1/assets/61854862/fb92af75-6aef-4d09-a62c-1e6b2a7764da)
 
 
 ## Activity 3
